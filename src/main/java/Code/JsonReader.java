@@ -13,7 +13,6 @@ public class JsonReader {
     private static JSONParser jsonParser = new JSONParser();
     
     @SuppressWarnings("unchecked")
-    
     /**
      * Metodo read intenta leer archivo zapatillas.json a uno JSONArray recibido de
      * obectToArray y ejecuta el metodo parseSnickerObject por cada objeto del JSONArray.
